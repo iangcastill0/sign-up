@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.formbody {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  max-width: 60rem;
+  margin: 15rem auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+/* App.css */
+
+.app-container {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  height: 100%;  /* Full viewport height */
+  background-color: #ffffff;  /* Optional: light background color */
 }
 
-.App-link {
-  color: #61dafb;
+.formbody {
+  width: 100%;
+  max-width: 600px;  /* Set max width of the form */
+  padding: 20px;
+  background-color: #fff;  /* Optional: white background for the form */
+  border-radius: 8px;  /* Optional: rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  /* Optional: box shadow */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submissions-container {
+  margin-top: -10rem;  /* Space between form and submissions */
+  text-align: center;  /* Center align text inside the container */
+}
+
+.submissions-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+
+}
+
+.submission-item {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+.title-container{
+  text-align: center;
 }
